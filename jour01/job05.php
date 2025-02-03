@@ -2,7 +2,7 @@
     class Animal {
         public $age = 0;
         public $prenom = "";
-        public function __constructor($age, $prenom) {
+        public function __construct($age, $prenom) {
             $this->age = $age;
             $this->prenom = $prenom;
         }
@@ -13,7 +13,7 @@
             $this->prenom=$prenom;
         }
     }
-    $animal = new Animal();
+    $animal = new Animal(4, "Bertrand");
 
     echo "L'age de l'animal est de : " . $animal->age . "<br>";
     $animal->vieillir();
