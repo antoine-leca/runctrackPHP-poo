@@ -12,7 +12,6 @@
             echo $this->nombre1 . " " . $this->nombre2;
         }
     }
-
     $operation = new Operation();
     $operation->afficherNombres();
 ?>
